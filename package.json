@@ -18,7 +18,7 @@
   },
   "scripts": {
     "dev": "wrangler dev",
-    "deploy": "wrangler deploy",
+    "deploy": "node scripts/retire-worker.mjs",
     "kv:init": "node scripts/ensure-kv.mjs",
     "setup": "node scripts/setup.mjs",
     "test": "vitest run",
